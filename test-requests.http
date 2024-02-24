@@ -1,0 +1,103 @@
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Rise of the Valkyrie",
+    "year": 2019,
+    "language": "English"
+}
+
+###
+GET http://localhost:3000/movies?language=English&year=2008 HTTP/1.1
+
+###
+GET http://localhost:3000/movies/65d3ea1add9fd5aa7ab2fd2b HTTP/1.1
+
+###
+
+PUT http://localhost:3000/movies/65d2f26c1f80c12fee3b4634 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "A Wet Horse",
+    "year": 2008,
+    "language": "English"
+}
+
+###
+DELETE http://localhost:3000/movies/65d2f1381f80c12fee3b4632 HTTP/1.1
+
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Eternal Sunshine Of The Spotless Mind",
+    "year": 2004,
+    "language": "English"
+}
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "High Fidelity",
+    "year": 2000,
+    "language": "English"
+}
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Anchorman",
+    "year": 2004,
+    "language": "English"
+}
+
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "I Hate Old Men",
+    "year": 2023,
+    "language": "English"
+}
+
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "A Goofy Ass Man",
+    "year": 2000,
+    "language": "Patwa"
+}
+
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "City Of Llama",
+    "year": 2003,
+    "language": "Spanish"
+}
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Parasite",
+    "year": 2019,
+    "language": "Korean"
+}
